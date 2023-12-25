@@ -30,9 +30,7 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-app-rewired eject"
     },
     "eslintConfig": {
         "extends": [
@@ -57,6 +55,5 @@
         "customize-cra": "^1.0.0",
         "react-app-rewired": "^2.2.1",
         "sass": "^1.64.0"
-    },
-    "homepage": "http://N-DK.github.io/movie-web"
+    }
 }
