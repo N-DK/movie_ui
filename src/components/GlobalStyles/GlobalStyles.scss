@@ -1,0 +1,110 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+    --primary: #e4d804;
+    --dark: #13151d;
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    // text-rendering: optimizeSpeed;
+}
+
+.fw-bold-700 {
+    font-weight: 700;
+}
+
+.fw-bold-600 {
+    font-weight: 600;
+}
+
+.fw-bold-500 {
+    font-weight: 500;
+}
+
+.f-family {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg--primary {
+    background: var(--primary);
+    color: var(--black) !important;
+}
+
+.border--primary {
+    border: 3px solid var(--primary);
+}
+
+.border-style-dashed {
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.border--no-color {
+    border: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.border--color--primary {
+    border-color: var(--primary);
+}
+
+.bg--dark {
+    background: var(--dark);
+}
+
+.text--primary {
+    color: var(--primary);
+}
+
+.text--hover {
+    transition: 0.3s;
+    &:hover {
+        color: var(--primary) !important;
+    }
+}
+
+.bg--hover {
+    transition: 0.3s;
+    &:hover {
+        background-color: var(--primary) !important;
+        color: var(--black) !important;
+    }
+}
+
+.underlined--letters {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        width: 40px;
+        height: 3px;
+        background-color: var(--primary);
+        border-radius: 999999px;
+    }
+}
+
+.hidden--pc {
+    display: none;
+}
+
+#modalMenu.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate(100%, 0px);
+}
+
+#modalMenu.modal.show .modal-dialog {
+    transform: translate(0%, 0px);
+}
