@@ -1,6 +1,5 @@
 .bg-title {
-    background: url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/banner_bg01.jpg')
-        no-repeat center/cover;
+    background: url('/src/assets/images/banner_bg01.jpg') no-repeat center/cover;
     height: 911px;
     .fs-26 {
         font-size: 26px;
@@ -12,8 +11,7 @@
 }
 
 .ucm-bg {
-    background: url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/movie_bg.jpg')
-        no-repeat center/cover;
+    background: url('/src/assets/images/movie_bg.jpg') no-repeat center/cover;
     padding: 120px 0;
     z-index: 1;
     position: relative;
@@ -33,8 +31,7 @@
 
 .services-bg {
     padding: 120px 0;
-    background: url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/services_bg.jpg')
-        no-repeat center/cover;
+    background: url('/src/assets/images/services_bg.jpg') no-repeat center/cover;
 }
 
 .service--img {
@@ -100,8 +97,7 @@
 }
 
 .top-rate-bg {
-    background: url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/movie_bg.jpg')
-        no-repeat center/cover;
+    background: url('/src/assets/images/movie_bg.jpg') no-repeat center/cover;
     padding: 120px 0;
 }
 
@@ -114,8 +110,7 @@
         content: '';
         display: block;
         position: absolute;
-        background: url('https://themehut.co/wp/movflx/wp-content/themes/movflx/assets/img/images/title_shape.png')
-            no-repeat center;
+        background: url('/src/assets/images/title_shape.png') no-repeat center;
         left: 50%;
         transform: translateX(-50%);
         height: 10px;
@@ -129,8 +124,7 @@
 }
 
 .live-bg {
-    background: url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/live_bg.jpg')
-        no-repeat center/cover;
+    background: url('/src/assets/images/live_bg.jpg') no-repeat center/cover;
     padding: 120px 0;
 }
 
